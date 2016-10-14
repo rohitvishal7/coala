@@ -56,7 +56,7 @@ class SpaceConsistencyTestBear(LocalBear):
                 replacement = spacing_helper.replace_spaces_with_tabs(
                     replacement)
                 if replacement != pre_replacement:
-                    result_texts.append("Spaces used instead of tabs.")
+                    result_texts.append("Spaces used instead of tabs")
 
             if len(result_texts) > 0:
                 diff = Diff(file)
